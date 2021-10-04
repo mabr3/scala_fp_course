@@ -1,0 +1,11 @@
+[debug] Waiting for threads to exit or System.exit to be called.
+[debug] Getting org.scala-sbt:compiler-bridge_2.13:1.2.5:compile for Scala 2.13.0
+[debug] Waiting for thread run-main-0 to terminate.
+[debug] Getting org.scala-sbt:compiler-bridge_2.13:1.2.5:compile for Scala 2.13.0
+[info] Starting scala interpreter...
+[debug] 	Thread run-main-0 exited.
+[debug] Interrupting remaining threads (should be all daemons).
+[debug] Interrupting thread Timer-0
+[debug] 	Interrupted Timer-0
+[debug] Sandboxed run complete..
+[debug] Exited with code 0
