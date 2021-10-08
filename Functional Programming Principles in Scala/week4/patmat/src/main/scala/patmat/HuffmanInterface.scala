@@ -4,7 +4,7 @@ package patmat
  * The interface used by the grading infrastructure. Do not change signatures
  * or your submission will fail with a NoSuchMethodError.
  */
-trait HuffmanInterface {
+trait HuffmanInterface:
   def weight(tree: CodeTree): Int
   def chars(tree: CodeTree): List[Char]
   def times(chars: List[Char]): List[(Char, Int)]
@@ -20,4 +20,3 @@ trait HuffmanInterface {
   def quickEncode(tree: CodeTree)(text: List[Char]): List[Int]
   def frenchCode: CodeTree
   def secret: List[Int]
-}
